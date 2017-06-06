@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1520C1B01EE650F70059621F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520C1AF1EE650F70059621F /* main.m */; };
+		1520C1B31EE650F70059621F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520C1B21EE650F70059621F /* AppDelegate.m */; };
+		1520C1B61EE650F70059621F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520C1B51EE650F70059621F /* ViewController.m */; };
+		1520C1B91EE650F70059621F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1520C1B71EE650F70059621F /* Main.storyboard */; };
+		1520C1BB1EE650F70059621F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1520C1BA1EE650F70059621F /* Assets.xcassets */; };
+		1520C1BE1EE650F70059621F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1520C1BC1EE650F70059621F /* LaunchScreen.storyboard */; };
+		1520C1C91EE650F70059621F /* WaterDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520C1C81EE650F70059621F /* WaterDropTests.m */; };
+		1520C1D41EE650F70059621F /* WaterDropUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520C1D31EE650F70059621F /* WaterDropUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1520C1C51EE650F70059621F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1520C1A31EE650F70059621F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1520C1AA1EE650F70059621F;
+			remoteInfo = WaterDrop;
+		};
+		1520C1D01EE650F70059621F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1520C1A31EE650F70059621F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1520C1AA1EE650F70059621F;
+			remoteInfo = WaterDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1520C1AB1EE650F70059621F /* WaterDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1520C1AF1EE650F70059621F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1520C1B11EE650F70059621F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1520C1B21EE650F70059621F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1520C1B41EE650F70059621F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1520C1B51EE650F70059621F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1520C1B81EE650F70059621F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1520C1BA1EE650F70059621F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1520C1BD1EE650F70059621F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1520C1BF1EE650F70059621F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1520C1C41EE650F70059621F /* WaterDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1520C1C81EE650F70059621F /* WaterDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterDropTests.m; sourceTree = "<group>"; };
+		1520C1CA1EE650F70059621F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1520C1CF1EE650F70059621F /* WaterDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1520C1D31EE650F70059621F /* WaterDropUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterDropUITests.m; sourceTree = "<group>"; };
+		1520C1D51EE650F70059621F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1520C1A81EE650F70059621F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1520C1C11EE650F70059621F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1520C1CC1EE650F70059621F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1520C1A21EE650F70059621F = {
+			isa = PBXGroup;
+			children = (
+				1520C1AD1EE650F70059621F /* WaterDrop */,
+				1520C1C71EE650F70059621F /* WaterDropTests */,
+				1520C1D21EE650F70059621F /* WaterDropUITests */,
+				1520C1AC1EE650F70059621F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1520C1AC1EE650F70059621F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1520C1AB1EE650F70059621F /* WaterDrop.app */,
+				1520C1C41EE650F70059621F /* WaterDropTests.xctest */,
+				1520C1CF1EE650F70059621F /* WaterDropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1520C1AD1EE650F70059621F /* WaterDrop */ = {
+			isa = PBXGroup;
+			children = (
+				1520C1B11EE650F70059621F /* AppDelegate.h */,
+				1520C1B21EE650F70059621F /* AppDelegate.m */,
+				1520C1B41EE650F70059621F /* ViewController.h */,
+				1520C1B51EE650F70059621F /* ViewController.m */,
+				1520C1B71EE650F70059621F /* Main.storyboard */,
+				1520C1BA1EE650F70059621F /* Assets.xcassets */,
+				1520C1BC1EE650F70059621F /* LaunchScreen.storyboard */,
+				1520C1BF1EE650F70059621F /* Info.plist */,
+				1520C1AE1EE650F70059621F /* Supporting Files */,
+			);
+			path = WaterDrop;
+			sourceTree = "<group>";
+		};
+		1520C1AE1EE650F70059621F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1520C1AF1EE650F70059621F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1520C1C71EE650F70059621F /* WaterDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				1520C1C81EE650F70059621F /* WaterDropTests.m */,
+				1520C1CA1EE650F70059621F /* Info.plist */,
+			);
+			path = WaterDropTests;
+			sourceTree = "<group>";
+		};
+		1520C1D21EE650F70059621F /* WaterDropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1520C1D31EE650F70059621F /* WaterDropUITests.m */,
+				1520C1D51EE650F70059621F /* Info.plist */,
+			);
+			path = WaterDropUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1520C1AA1EE650F70059621F /* WaterDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1520C1D81EE650F70059621F /* Build configuration list for PBXNativeTarget "WaterDrop" */;
+			buildPhases = (
+				1520C1A71EE650F70059621F /* Sources */,
+				1520C1A81EE650F70059621F /* Frameworks */,
+				1520C1A91EE650F70059621F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterDrop;
+			productName = WaterDrop;
+			productReference = 1520C1AB1EE650F70059621F /* WaterDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1520C1C31EE650F70059621F /* WaterDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1520C1DB1EE650F70059621F /* Build configuration list for PBXNativeTarget "WaterDropTests" */;
+			buildPhases = (
+				1520C1C01EE650F70059621F /* Sources */,
+				1520C1C11EE650F70059621F /* Frameworks */,
+				1520C1C21EE650F70059621F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1520C1C61EE650F70059621F /* PBXTargetDependency */,
+			);
+			name = WaterDropTests;
+			productName = WaterDropTests;
+			productReference = 1520C1C41EE650F70059621F /* WaterDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1520C1CE1EE650F70059621F /* WaterDropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1520C1DE1EE650F70059621F /* Build configuration list for PBXNativeTarget "WaterDropUITests" */;
+			buildPhases = (
+				1520C1CB1EE650F70059621F /* Sources */,
+				1520C1CC1EE650F70059621F /* Frameworks */,
+				1520C1CD1EE650F70059621F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1520C1D11EE650F70059621F /* PBXTargetDependency */,
+			);
+			name = WaterDropUITests;
+			productName = WaterDropUITests;
+			productReference = 1520C1CF1EE650F70059621F /* WaterDropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1520C1A31EE650F70059621F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = acmeway;
+				TargetAttributes = {
+					1520C1AA1EE650F70059621F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					1520C1C31EE650F70059621F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1520C1AA1EE650F70059621F;
+					};
+					1520C1CE1EE650F70059621F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1520C1AA1EE650F70059621F;
+					};
+				};
+			};
+			buildConfigurationList = 1520C1A61EE650F70059621F /* Build configuration list for PBXProject "WaterDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1520C1A21EE650F70059621F;
+			productRefGroup = 1520C1AC1EE650F70059621F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1520C1AA1EE650F70059621F /* WaterDrop */,
+				1520C1C31EE650F70059621F /* WaterDropTests */,
+				1520C1CE1EE650F70059621F /* WaterDropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1520C1A91EE650F70059621F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1520C1BE1EE650F70059621F /* LaunchScreen.storyboard in Resources */,
+				1520C1BB1EE650F70059621F /* Assets.xcassets in Resources */,
+				1520C1B91EE650F70059621F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1520C1C21EE650F70059621F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1520C1CD1EE650F70059621F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1520C1A71EE650F70059621F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1520C1B61EE650F70059621F /* ViewController.m in Sources */,
+				1520C1B31EE650F70059621F /* AppDelegate.m in Sources */,
+				1520C1B01EE650F70059621F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1520C1C01EE650F70059621F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1520C1C91EE650F70059621F /* WaterDropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1520C1CB1EE650F70059621F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1520C1D41EE650F70059621F /* WaterDropUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1520C1C61EE650F70059621F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1520C1AA1EE650F70059621F /* WaterDrop */;
+			targetProxy = 1520C1C51EE650F70059621F /* PBXContainerItemProxy */;
+		};
+		1520C1D11EE650F70059621F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1520C1AA1EE650F70059621F /* WaterDrop */;
+			targetProxy = 1520C1D01EE650F70059621F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1520C1B71EE650F70059621F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1520C1B81EE650F70059621F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1520C1BC1EE650F70059621F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1520C1BD1EE650F70059621F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1520C1D61EE650F70059621F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1520C1D71EE650F70059621F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1520C1D91EE650F70059621F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ACMEWAY.WaterDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1520C1DA1EE650F70059621F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ACMEWAY.WaterDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1520C1DC1EE650F70059621F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ACMEWAY.WaterDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterDrop.app/WaterDrop";
+			};
+			name = Debug;
+		};
+		1520C1DD1EE650F70059621F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ACMEWAY.WaterDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterDrop.app/WaterDrop";
+			};
+			name = Release;
+		};
+		1520C1DF1EE650F70059621F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterDropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ACMEWAY.WaterDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterDrop;
+			};
+			name = Debug;
+		};
+		1520C1E01EE650F70059621F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaterDropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ACMEWAY.WaterDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaterDrop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1520C1A61EE650F70059621F /* Build configuration list for PBXProject "WaterDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1520C1D61EE650F70059621F /* Debug */,
+				1520C1D71EE650F70059621F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1520C1D81EE650F70059621F /* Build configuration list for PBXNativeTarget "WaterDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1520C1D91EE650F70059621F /* Debug */,
+				1520C1DA1EE650F70059621F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1520C1DB1EE650F70059621F /* Build configuration list for PBXNativeTarget "WaterDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1520C1DC1EE650F70059621F /* Debug */,
+				1520C1DD1EE650F70059621F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1520C1DE1EE650F70059621F /* Build configuration list for PBXNativeTarget "WaterDropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1520C1DF1EE650F70059621F /* Debug */,
+				1520C1E01EE650F70059621F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1520C1A31EE650F70059621F /* Project object */;
+}
