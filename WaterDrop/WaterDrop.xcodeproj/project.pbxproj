@@ -15,6 +15,8 @@
 		1520C1BE1EE650F70059621F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1520C1BC1EE650F70059621F /* LaunchScreen.storyboard */; };
 		1520C1C91EE650F70059621F /* WaterDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520C1C81EE650F70059621F /* WaterDropTests.m */; };
 		1520C1D41EE650F70059621F /* WaterDropUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520C1D31EE650F70059621F /* WaterDropUITests.m */; };
+		1520C1E31EE651E20059621F /* MGWaterDorpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520C1E21EE651E20059621F /* MGWaterDorpView.m */; };
+		1520C1F31EE6B4390059621F /* UIColor+MGHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520C1F21EE6B4390059621F /* UIColor+MGHexColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		1520C1CF1EE650F70059621F /* WaterDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1520C1D31EE650F70059621F /* WaterDropUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterDropUITests.m; sourceTree = "<group>"; };
 		1520C1D51EE650F70059621F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1520C1E11EE651E20059621F /* MGWaterDorpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGWaterDorpView.h; sourceTree = "<group>"; };
+		1520C1E21EE651E20059621F /* MGWaterDorpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGWaterDorpView.m; sourceTree = "<group>"; };
+		1520C1E41EE6523E0059621F /* MGPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGPrefixHeader.pch; sourceTree = "<group>"; };
+		1520C1F11EE6B4390059621F /* UIColor+MGHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MGHexColor.h"; sourceTree = "<group>"; };
+		1520C1F21EE6B4390059621F /* UIColor+MGHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MGHexColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,11 @@
 				1520C1B21EE650F70059621F /* AppDelegate.m */,
 				1520C1B41EE650F70059621F /* ViewController.h */,
 				1520C1B51EE650F70059621F /* ViewController.m */,
+				1520C1E11EE651E20059621F /* MGWaterDorpView.h */,
+				1520C1E21EE651E20059621F /* MGWaterDorpView.m */,
+				1520C1F11EE6B4390059621F /* UIColor+MGHexColor.h */,
+				1520C1F21EE6B4390059621F /* UIColor+MGHexColor.m */,
+				1520C1E41EE6523E0059621F /* MGPrefixHeader.pch */,
 				1520C1B71EE650F70059621F /* Main.storyboard */,
 				1520C1BA1EE650F70059621F /* Assets.xcassets */,
 				1520C1BC1EE650F70059621F /* LaunchScreen.storyboard */,
@@ -202,11 +214,13 @@
 		1520C1A31EE650F70059621F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MG;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = acmeway;
 				TargetAttributes = {
 					1520C1AA1EE650F70059621F = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = S354XQCX43;
 						ProvisioningStyle = Automatic;
 					};
 					1520C1C31EE650F70059621F = {
@@ -275,7 +289,9 @@
 			files = (
 				1520C1B61EE650F70059621F /* ViewController.m in Sources */,
 				1520C1B31EE650F70059621F /* AppDelegate.m in Sources */,
+				1520C1F31EE6B4390059621F /* UIColor+MGHexColor.m in Sources */,
 				1520C1B01EE650F70059621F /* main.m in Sources */,
+				1520C1E31EE651E20059621F /* MGWaterDorpView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +440,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S354XQCX43;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WaterDrop/MGPrefixHeader.pch";
 				INFOPLIST_FILE = WaterDrop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ACMEWAY.WaterDrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +454,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S354XQCX43;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WaterDrop/MGPrefixHeader.pch";
 				INFOPLIST_FILE = WaterDrop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ACMEWAY.WaterDrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +529,7 @@
 				1520C1DA1EE650F70059621F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1520C1DB1EE650F70059621F /* Build configuration list for PBXNativeTarget "WaterDropTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +538,7 @@
 				1520C1DD1EE650F70059621F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1520C1DE1EE650F70059621F /* Build configuration list for PBXNativeTarget "WaterDropUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +547,7 @@
 				1520C1E01EE650F70059621F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

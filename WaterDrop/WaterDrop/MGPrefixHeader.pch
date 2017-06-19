@@ -1,0 +1,17 @@
+//
+//  MGPrefixHeader.pch
+//  WaterDrop
+//
+//  Created by acmeway on 2017/6/6.
+//  Copyright © 2017年 acmeway. All rights reserved.
+//
+
+#ifndef MGPrefixHeader_pch
+#define MGPrefixHeader_pch
+
+#import "UIColor+MGHexColor.h"
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+
+
+#endif /* MGPrefixHeader_pch */
